@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body {
+    background: #242424;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navigationnnnn */
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #303030;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.329);
+    z-index: 100;
+}
+
+.navigation {
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    transition: 1.2ms;
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navigation li a {
+    background-color: 303030;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation li :hover {
+    color: #ffff00;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(254, 193, 16);
+    transition: 0.2s;
+}
+
+/* akhir navigationnn */
+/* countaineerrrrr 1*/
+.countainer {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 100px;
+    background-color: #242424;
+    position: relative;
+    top: -0.3%;
+}
+
+.countainer img {
+    height: 500px;
+    position: relative;
+    top: 20%;
+    left: 60%;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.329);
+}
+
+.countainer .namabrand {
+    position: relative;
+    top: 23%;
+    left: -25%;
+    font-size: 300%;
+    color: #fff;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.selamat {
+    position: relative;
+    top: -10%;
+}
+
+.countainer .namabrand .gwejh {
+    position: relative;
+    top: -29%;
+    left: 103%;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #ffff00;
+      
+}
+
+/* akhirrrr */
+/* awal countainer 2 */
+.macamproduk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 420px;
+    background-color: #1b1b1b;
+}
+
+.cardbody {
+    margin-top: 5%;
+    background-color: #242424;
+    height: 230px;
+    width: 350px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.329);
+}
+.cardbody :hover {
+    background-color: #ffff00;
+    opacity: 80%;
+    transition: 0.2s;
+    height: 68px;
+}
+
+.cardcontent {
+    text-align: center;
+    padding: 80px;
+}
+
+.cardbody h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+/* akhir countainer 222 */
+/* awal kaossss */
+.tulisan-kaos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textkaos {
+    text-align: center;
+    color: #fff;
+    margin: 42px  ;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 1px solid #ffff00;
+    width: 400px;
+}
+
+#kaos{
+    width: 100%;
+    height: 130px;
+}
+
+.kaos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 700px;
+    background-color: #1b1b1b;
+    margin-top: 0;
+}
+
+.produknya {
+    margin-top: 5%;
+    background-color: #242424;
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.329);
+}
+
+.dalemnya1 {
+    text-align: center;
+    padding: 80px;
+}
+.dalemnya2 {
+    text-align: center;
+    padding: 80px;
+}
+.dalemnya3 {
+    text-align: center;
+    padding: 80px;
+}
+.dalemnya4 {
+    text-align: center;
+    padding: 80px;
+}
+
+.dalemnya1 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.dalemnya2 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.dalemnya3 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+    margin-top: -8%;
+}
+.dalemnya4 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.dalemnya1 img {
+    position: relative;
+    height: 300px;
+    left: -33%;
+    margin-top: -20%;
+}
+.dalemnya2 img {
+    position: relative;
+    height: 300px;
+    left: -30%;
+    margin-top: -25%;
+}
+.dalemnya3 img {
+    position: relative;
+    height: 350px;
+    left: -40%;
+    margin-top: -35%;
+}
+.dalemnya4 img {
+    position: relative;
+    height: 300px;
+    left: -30%;
+    margin-top: -25%;
+}
+/* akhirrrrr */
+/* awal hoodieeee */
+.tulisan-hoodie {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texthoodie {
+    text-align: center;
+    color: #fff;
+    margin: 42px;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 1px solid #ffff00;
+    width: 400px;
+}
+.hoodie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 700px;
+    background-color: #1b1b1b;
+    margin-top: 0;
+}
+
+.produkhoodie {
+    margin-top: 5%;
+    background-color: #242424;
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.329);
+}
+
+.hoodie1 {
+    text-align: center;
+    padding: 80px;
+}
+.hoodie2 {
+    text-align: center;
+    padding: 80px;
+}
+.hoodie3 {
+    text-align: center;
+    padding: 80px;
+}
+.hoodie4 {
+    text-align: center;
+    padding: 80px;
+}
+
+.hoodie1 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.hoodie2 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.hoodie3 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.hoodie4 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.hoodie1 img {
+    position: relative;
+    height: 300px;
+    left: -33%;
+    margin-top: -20%;
+}
+.hoodie2 img {
+    position: relative;
+    height: 300px;
+    left: -30%;
+    margin-top: -25%;
+}
+.hoodie3 img {
+    position: relative;
+    height: 350px;
+    left: -40%;
+    margin-top: -35%;
+}
+.hoodie4 img {
+    position: relative;
+    height: 300px;
+    left: -30%;
+    margin-top: -25%;
+}
+/* akhirr hodieee */
+/* awal celanaaa */
+
+.tulisan-celana {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tekscelana {
+    text-align: center;
+    color: #fff;
+    margin: 42px;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 1px solid #ffff00;
+    width: 400px;
+    margin-left: 40%;
+}
+.celana{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 700px;
+    background-color: #1b1b1b;
+    margin-top: 0;
+}
+
+.produkcelana {
+    margin-top: 5%;
+    background-color: #242424;
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.329);
+}
+
+.celana1 {
+    text-align: center;
+    padding: 80px;
+}
+.celana2 {
+    text-align: center;
+    padding: 80px;
+}
+.celana3 {
+    text-align: center;
+    padding: 80px;
+}
+.celana4 {
+    text-align: center;
+    padding: 80px;
+}
+
+.celana1 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.celana2 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.celana3 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+    margin-top: -10%;
+}
+.celana4 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.celana1 img {
+    position: relative;
+    height: 300px;
+    left: -33%;
+    margin-top: -37%;
+}
+.celana2 img {
+    position: relative;
+    height: 300px;
+    left: -30%;
+    margin-top: -25%;
+}
+.celana3 img {
+    position: relative;
+    height: 350px;
+    left: -40%;
+    margin-top: -35%;
+}
+.celana4 img {
+    position: relative;
+    height: 300px;
+    left: -30%;
+    margin-top: -25%;
+}
+
+/* akhir celanaaa */
+/* awal sepatu */
+
+.tulisan.sepatu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tekssepatu {
+    text-align: center;
+    color: #fff;
+    margin: 42px;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 1px solid #ffff00;
+    width: 400px;
+    margin-left: 40%;
+}
+.sepatu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 700px;
+    background-color: #1b1b1b;
+    margin-top: 0;
+}
+
+.produksepatu {
+    margin-top: 5%;
+    background-color: #242424;
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.329);
+}
+
+.sepatu1 {
+    text-align: center;
+    padding: 80px;
+    margin-top: 5%;
+}
+.sepatu2 {
+    text-align: center;
+    padding: 80px;
+}
+.sepatu3 {
+    text-align: center;
+    padding: 80px;
+    margin-top: -5%;
+}
+.sepatu4 {
+    text-align: center;
+    padding: 80px;
+}
+
+.sepatu1 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.sepatu2 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.sepatu3 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+    margin-top: -2%;
+}
+.sepatu4 h3 {
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+.sepatu1 img {
+    position: relative;
+    height: 300px;
+    left: -33%;
+    margin-top: -37%;
+}
+.sepatu2 img {
+    position: relative;
+    height: 300px;
+    left: -30%;
+    margin-top: -25%;
+}
+.sepatu3 img {
+    position: relative;
+    height: 350px;
+    left: -40%;
+    margin-top: -35%;
+}
+.sepatu4 img {
+    position: relative;
+    height: 300px;
+    left: -30%;
+    margin-top: -25%;
+}
